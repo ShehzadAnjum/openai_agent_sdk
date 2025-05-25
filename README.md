@@ -3,11 +3,17 @@ Learning path of Open AI Agent SDK
 
 ## Installation
 
-`uv init <project name>
-uv venv
-.venv\Scripts\activate`
-#### For adding Openai Agent SDK
-`uv add openai-agents`   
+```bash
+uv init <project name>
+uv venv && .venv\Scripts\activate
+```
 
-##### OR simply with pip, if not using UV  
-`pip install openai-agents`
+```bash
+# adding Openai Agent SDK with uv
+uv add openai-agents
+```
+
+```bash
+# OR simply with pip, if not using UV  
+pip install openai-agents
+```
